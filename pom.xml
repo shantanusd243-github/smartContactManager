@@ -14,7 +14,7 @@
 	<name>smartContactManager</name>
 	<description>First Spring Boot Project</description>
 	<properties>
-		<java.version>17.0.4.1</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
