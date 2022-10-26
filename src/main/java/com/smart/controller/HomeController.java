@@ -56,6 +56,7 @@ public class HomeController {
 		try {
 			System.out.println("USER "+user);
 			System.out.println("bindResult "+bindResult);
+			
 			if(bindResult.hasErrors()) {
 				model.addAttribute("user", user);
 				session.setAttribute("message",new Message((List<String>) bindResult,"alert-danger"));
